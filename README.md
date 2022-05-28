@@ -18,12 +18,20 @@ La implementación es en una sola página con responsive. No he creado un nuevo 
   - Posibilidad de implementarla en diferentes países gracias a [**i18n**](https://www.i18next.com/).
 
 ## Ejecución :star:
+  
+Una vez descargado el repositorio:
 
-Este es el comando para ejecutar la aplicación web en modo desarrollo:
-
-```
-npm run dev
-```
+  - Instalar todas las dependencias
+  
+    ```
+    npm install
+    ```
+    
+  - Ejecutar la aplicación web en modo desarrollo
+  
+    ```
+    npm run dev
+    ```
 
 ## Autor ✒️
 **Jesús Martín Zorrilla** - *Trabajo Inicial y Documentación*
