@@ -1,0 +1,28 @@
+.Menu {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #2D14C4;
+    border-radius: 1.5rem;
+    max-width: 355px;
+}
+
+.Menu-ul {
+    height: 3.875rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Menu-li {
+    list-style: none;
+}
+
+@media (max-width: 900px) {
+    .Menu {
+        display: block;
+    }
+}

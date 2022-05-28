@@ -1,0 +1,15 @@
+.TitleSection {
+    padding: 1.125rem 1rem;
+    background-color: #F5F5F5;
+}
+
+.TitleSection-title {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+@media (max-width: 900px) {
+    .TitleSection {
+        display: none;
+    }
+}

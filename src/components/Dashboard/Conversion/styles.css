@@ -1,0 +1,35 @@
+.Conversion{
+    margin: .5rem 1rem;
+    padding: 2rem;
+    border: 1px solid #E5E5E5;
+    border-radius: 0.625rem;
+}
+.Conversion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+.Conversion-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.Conversion-button {
+    cursor: pointer;
+    background-color: transparent;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #E5E5E5;
+    border-radius: .25rem;
+}
+.Conversion-pie {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+@media (max-width: 900px) {
+    .Conversion {
+        display: none;
+    }
+}

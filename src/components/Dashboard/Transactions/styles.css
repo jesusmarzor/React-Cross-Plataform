@@ -1,0 +1,33 @@
+.Transactions {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(50% - (calc(0.5rem*3)));
+    height: 9.063rem;
+    margin: .5rem;
+    padding: 1rem 1.2rem;
+    border: 1px solid #E5E5E5;
+    border-radius: 0.625rem;
+}
+
+.Transactions-title {
+    font-size: 0.938rem;
+    font-weight: 700;
+}
+
+.Transactions-number {
+    font-size: 3rem;
+    color: #6979F8;
+}
+
+.Transactions-description {
+    font-size: 0.75rem;
+    color: #999999;
+}
+
+@media (max-width: 900px) {
+    .Transactions {
+        box-shadow: 0 10px 30px -10px gray;
+    }
+}

@@ -1,0 +1,46 @@
+.TransactionHistory {
+    display: none;
+    width: 95%;
+    margin: 2rem auto 6rem auto;
+    padding: 1rem 1.2rem;
+    border: 1px solid #E5E5E5;
+    border-radius: 0.625rem;
+    box-shadow: 0 10px 30px -10px gray;
+}
+
+.TransactionHistory-title {
+    font-size: 0.938rem;
+    font-weight: 600;
+}
+
+.TransactionHistory-ul {
+    display: flex;
+    padding: 1rem .5rem;
+    justify-content: space-around;
+}
+
+.TransactionHistory-li {
+    list-style: none;
+    text-align: center;
+}
+
+.TransactionHistory-button {
+    cursor: pointer;
+    color: #EFEFEF;
+    padding: 1rem .5rem;
+    background-color: transparent;
+    border: none;
+    letter-spacing: .1rem;
+    font-size: 1rem;
+}
+
+.TransactionHistory-button.isActive{
+    color: #6979F8;
+    border-bottom: 5px solid #6979F8;
+}
+
+@media (max-width: 900px) {
+    .TransactionHistory {
+        display: block;
+    }
+}

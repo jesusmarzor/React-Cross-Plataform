@@ -1,0 +1,25 @@
+Header {
+    padding: 2rem 1.938rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header-span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4A35C5;
+    text-transform: uppercase;
+}
+
+.Header-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .Header-button {
+        display: none;
+    }
+}
