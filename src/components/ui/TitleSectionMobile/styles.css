@@ -1,7 +1,14 @@
 .TitleSectionMobile {
     padding: 1.125rem 1rem;
+    display: none;
 }
 
 .TitleSectionMobile-title {
     font-size: 1.5rem;
+}
+
+@media (max-width: 900px) {
+    .TitleSectionMobile {
+        display: block;
+    }
 }
