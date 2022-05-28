@@ -1,0 +1,14 @@
+{
+    "title": "Banks",
+    "alt_logo": "Logo Neo",
+    "dashboard_title": "Dashboard",
+    "transactions_title": "Transactions",
+    "conversion_title": "Conversion",
+    "weekly_expenses": "Weekly expenses",
+    "total_revenue": "Total Revenue",
+    "transactions_last_year": "Transactions Last Year",
+    "monthly": "Monthly",
+    "daily": "Daily",
+    "transactions_history_title": "Transactions history",
+    "transactions_history_description": "These are your monthly and daily actions. 📊"
+}
