@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Line } from "react-chartjs-2";
-import { LANGUAGES, OPTIONS_LINE, COLOR_LINE, DATA_WEEKLY_EXPENSES } from "../../../utils/Constants";
+import { LANGUAGES, OPTIONS_LINE, COLOR_LINE, DATA_WEEKLY_EXPENSES, WEEKLY_EXPENSES } from "../../../utils/Constants";
 import { useLine } from "../../../hooks/useLine";
 import './styles.css';
 
@@ -28,13 +28,13 @@ export const WeeklyExpenses = () => {
             </div>
             <footer className="WeeklyExpenses-footer">
                 <h2 className="WeeklyExpenses-revenue">{t('total_revenue')}</h2>
-                <p className="WeeklyExpenses-money">{calcMoney(789)}</p>
+                <p className="WeeklyExpenses-money">{calcMoney(WEEKLY_EXPENSES.money)}</p>
                 <p>
                     <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
                         <path d="M4 6.66667V1.33334" stroke="#4AAF05" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         <path d="M2 3.33334L4 1.33334L6 3.33334" stroke="#4AAF05" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
-                    <span className="WeeklyExpenses-percentage">7.00%</span>
+                    <span className="WeeklyExpenses-percentage">{WEEKLY_EXPENSES.percentage}%</span>
                 </p>
             </footer>
         </div>

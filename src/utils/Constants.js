@@ -120,3 +120,8 @@ export const DATA_TRANSACTION_HISTORY = [
     }
 ];
 export const COLOR_LINE = '#2D14C4';
+
+export const WEEKLY_EXPENSES = {
+    money: 76685.41,
+    percentage: 7.00,
+}
